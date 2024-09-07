@@ -1,0 +1,451 @@
+/* General Reset and Styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Logo {
+    width: 100px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar-button .btn {
+    padding: 22px 36px;
+    background-color: #e5abf3;
+    border-radius: 100px;
+    color: #0e0e0e;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Banner styling */
+
+
+.banner .heading {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 105px;
+    color: #0e0e0e;
+    font-weight: bold;
+}
+
+.para {
+    text-align: center;
+    padding-top: 20px;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+.bannerSection {
+    position: relative;
+    max-width: 100%;
+}
+
+.shape {
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shape-img {
+    position: absolute;
+    width: 270px;
+    left: 12%;
+    transform: translateX(-50%);
+    
+}
+
+.sofax{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-field{
+    border:1px solid #747474;
+    width: 600px;
+    height: 50px;
+    border-radius: 100px;
+    position: relative;
+  
+}
+.subscription-field::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.subscription-btn{
+    background-color: #e5abf3;
+    width: 200px;
+    border-radius: 100px;
+    height: 45px;
+    margin: 3px 3px 3px 397px;
+    position: absolute;
+}
+.subscription-btn:hover{
+    background-color:black;
+    pointer-events:auto;
+    color: white;
+    transition: all .4s;
+        transition-behavior: normal;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        transition-property: all;
+ 
+}
+
+.subscription-btn-text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.sofax-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.sofax-rating ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sofax-rating li {
+    margin-right: 5px;
+}
+
+.rating-text{
+    text-align: center;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.sofax-hero-thumb1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.sofax-hero-shape-2{
+    display: flex;
+    justify-content: end;
+}
+
+.sofax-title-section{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 90px;
+    color: #0e0e0e;
+}
+.sofax-logo-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
+    overflow: hidden;
+ 
+}
+
+.sofax-logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-top: 62px;
+    gap: 120px;
+    position: relative;
+}
+
+.sofax-logo-icon img {
+ 
+    height: auto;
+    animation: walkForward 5s infinite linear;
+}
+
+.sofax-endLogo{
+        height: 670px;
+        margin-top: 110px;
+        max-width: 1220px;
+        margin-left: auto;      
+        margin-right: auto;
+         
+        
+}
+
+.sofax-endLogo h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.sofax-endLogo-First{
+padding: 10px 0 10px;
+background-color: #f9f9fa;
+margin-bottom: 120px;
+
+}
+.sofax-endLogo-First{
+    margin-top: 62px;
+}
+
+.sofax-first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   gap:350px;
+}
+
+.sofax-brand-card{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    height: 280px;
+    padding: 30px;
+    margin-top: 80px;
+}
+.sofax-brand-card:hover{
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.sofax-brand-card h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0e0e0e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sofax-brand-card p{
+   font-size: 20px;
+   margin-bottom: 30px;
+   color: #3c3c3c;
+
+}
+.sofax-brand-link{
+    display: flex;
+    align-items: center;
+    gap:14px; 
+}
+.sofax-brand-link a{
+   font-size: 16px;
+   text-decoration: none;
+   font-weight: 600;
+   color: #3c3c3c;
+}
+
+.sofax-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.sofax-section-4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap: 90px;
+}
+
+.sofax-section-4 h2{
+    font-size: 75px;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+    margin-top: -44px;
+}
+.sofax-section-4 p{
+    font-size: 18px;
+    margin-bottom: 44px;
+    
+}
+
+.sofa-section-imageall{
+
+    position: relative;
+}
+
+
+.sofax-img2{
+position: absolute;
+left: 200px;
+margin-top: 120px;
+}
+
+.text-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap:12px;
+}
+.text-icon h4{
+   font-size: 24px;
+   color: #3c3c3c;
+}
+.text-icon-para{
+    margin-left: 52px;
+    margin-bottom: 15px;
+
+}
+
+.service-section5{
+    background-color: black;
+    height: 600px;
+    margin-bottom: 32px;
+}
+.service-section5-contenct{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 42px;
+   
+}
+.service-section5-contenct h2{
+    color: white;
+    perspective: 400px;
+    font-size: 75px;
+    letter-spacing: -2px;
+     line-height: 1.07em;
+     margin-bottom: 20px;
+}
+
+.service-section5-contenct p{
+    font-size: 18px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.sec5{
+    margin-top: 70px;
+}
+
+.sofax-section-6{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 110px;
+    margin-top: 140px;
+    max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.sofax-section-6 h2{
+    font-size: 75px;
+     line-height: 1.07em;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+.sofax-section-6 p{
+ 
+   font-size: 19px;
+}
+
+.sofax-section-6-icon{
+    display: flex;
+    gap: 10px;
+}
+.sofax-section-6-icon h4{
+
+    font-size: 24px;
+
+}
+.sofax-section-6-icon-para{
+
+    font-size: 19px;
+    margin-left: 60px;  
+
+}
+
+.sofax-section6-text h2{
+
+margin-bottom: 32px;    
+
+
+}
+.sofax-section6-text p{
+
+margin-bottom: 62px;    
+font-size: 19px;
+
+}
+
+.sofax-section-6-img{
+    width: 70%;
+}
+
+@keyframes walkForward {
+    0% {
+        transform: translateX(100%);
+      
+    }
+
+    50% {
+        transform: translateX(0);
+      
+    }
+
+    100% {
+        transform: translateX(-100%);
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-button {
+        margin-left: auto;
+    }
+
+    .shape-img {
+        width: 150px;
+        /* Adjust size for smaller screens */
+    }
+}
